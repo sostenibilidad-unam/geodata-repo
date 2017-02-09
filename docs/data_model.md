@@ -1,0 +1,59 @@
+
+# Metadatos
+ - **id** int(10) NOT NULL AUTO_INCREMENT
+ - **proyecto** int(10) DEFAULT NULL
+ - **responsable_entrega** int(10) DEFAULT NULL
+ - **responsable_recepcion** int(10) DEFAULT NULL
+ - **tipo_informacion** int(10) DEFAULT NULL
+ - **confidencial** int(1) DEFAULT NULL
+ - **rupi** varchar(100) DEFAULT NULL
+ - **titulo** text
+ - **observaciones** text
+ - **tema** int(10) DEFAULT NULL
+ - **palabras_clave** text
+ - **descripcion** text
+ - **formato_archivos** int(10) DEFAULT NULL
+ - **metodo** text
+ - **ubicacion** text
+ - **cobertura_inicio** varchar(50) DEFAULT NULL
+ - **cobertura_fin** varchar(50) DEFAULT NULL
+ - **autor** text
+ - **editor** text
+ - **otros_colaboradores** text
+ - **derechos** text
+ - **idioma** int(10) DEFAULT NULL
+ - **fecha_elaboracion** varchar(50) DEFAULT NULL
+ - **cita_oficial** text
+ - **vectorial** int(10) DEFAULT NULL
+ - **raster** int(10) DEFAULT NULL
+ - **resolucion** varchar(20) DEFAULT NULL
+ - **espec_archivos** text
+ - **desc_categorias** text
+ - **num_columnas** int(10) DEFAULT NULL
+ - **escala** varchar(100) DEFAULT NULL
+ - **unidades** text
+ - **proyeccion** int(10) DEFAULT NULL
+ - **datum** int(10) DEFAULT NULL
+ - **coord_extremas** text
+ - **tabla_columnas** text
+ - **fecha_subida** varchar(50) DEFAULT NULL
+ - **fecha_validacion** varchar(50) DEFAULT NULL
+ - **fecha_modificacion** varchar(50) DEFAULT NULL
+ - **usuario_valido** int(10) DEFAULT NULL
+ - **url_archivo** text
+ - **folio** text
+ - **validado** int(1) DEFAULT NULL
+ - version
+
+
+# Proyectos
+ - **nombre** varchar(255) DEFAULT NULL
+ - **responsable** varchar(255) DEFAULT NULL
+ - **descripcion** text
+ - **temas** text
+ - **duracion** varchar(255) DEFAULT NULL
+ - **entidades** text
+ - **financiamiento** text
+ - **restricciones** text
+ - **ult_actualizacion** varchar(50) DEFAULT NULL
+ - **baja_logica** int(1) DEFAULT '0'
